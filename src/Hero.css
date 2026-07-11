@@ -1,0 +1,103 @@
+.hero {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: black;
+}
+
+.hero video {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.panel {
+  position: absolute;
+
+  color: white;
+
+  width: 420px;
+  max-width: 88vw;
+
+  opacity: 0;
+  pointer-events: none; /* invisible panels shouldn't intercept clicks */
+
+  will-change: opacity, transform; /* keeps panel animation on the compositor thread */
+  z-index: 100;
+}
+
+.left {
+  top: 25%;
+  left: 8%;
+}
+
+.right {
+  top: 35%;
+  right: 8%;
+
+  text-align: right;
+}
+
+.center {
+  width: 100%;
+  left: 50%;
+  top: 45%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.panel h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.panel h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.panel p {
+  font-size: 18px;
+  opacity: .75;
+  line-height: 1.8;
+}
+
+.small {
+  color: #f44336;
+  letter-spacing: 4px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 16px 40px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .panel h1 {
+    font-size: 36px;
+  }
+
+  .panel h2 {
+    font-size: 22px;
+  }
+
+  .panel p {
+    font-size: 15px;
+  }
+}

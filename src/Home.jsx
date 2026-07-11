@@ -107,8 +107,12 @@ export default function Hero() {
         ref={videoRef}
         playsInline
         preload="auto"
-        src="public/porsche.mp4"
-      />
+      >
+        <source
+          src={`${import.meta.env.BASE_URL}porsche.mp4`}
+          type="video/mp4"
+        />
+      </video>
 
       {/* INTRO */}
       <div className="panel left" data-start="0" data-end="800">

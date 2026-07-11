@@ -26,18 +26,6 @@ An immersive web experience inspired by the **Porsche 911 GT3 RS**, designed to 
 
 ---
 
-## 📸 Project Preview
-
-> Replace the placeholders below with screenshots of your project.
-
-| Home Page                 | Features                          |
-| ------------------------- | --------------------------------- |
-| ![Home](preview/home.png) | ![Features](preview/features.png) |
-
-You can also showcase a GIF demonstrating the animations and transitions.
-
----
-
 ## 🌐 Live Demo
 
 **Website:**

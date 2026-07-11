@@ -58,7 +58,7 @@ The project demonstrates the use of React for component-based development, GSAP 
 **Aadit Narang**
 
 * GitHub: https://github.com/Whatyadoinn
-* LinkedIn: *Add your LinkedIn profile*
+* LinkedIn: www.linkedin.com/in/aadit-narang-zyn
 
 ---
 

@@ -1,17 +1,65 @@
-# React + Vite
+# 🏁 Porsche 911 GT3 RS Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An immersive web experience inspired by the **Porsche 911 GT3 RS**, designed to capture the precision, performance, and aggressive styling of one of the world's most iconic sports cars. Built with modern web technologies, the project combines cinematic visuals, smooth animations, and a responsive interface to create an engaging digital showcase.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🎥 Full-screen cinematic hero video
+* ⚡ Smooth GSAP-powered animations
+* 🎨 Porsche-inspired modern UI
+* 📱 Fully responsive across devices
+* 🖱️ Interactive scrolling experience
+* 💻 Component-based React architecture
+* 🚀 Optimized performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# GT3RS-PORSCHE
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **GSAP**
+
+---
+
+## 📸 Project Preview
+
+> Replace the placeholders below with screenshots of your project.
+
+| Home Page                 | Features                          |
+| ------------------------- | --------------------------------- |
+| ![Home](preview/home.png) | ![Features](preview/features.png) |
+
+You can also showcase a GIF demonstrating the animations and transitions.
+
+---
+
+## 🌐 Live Demo
+
+**Website:**
+🔗 *Add your deployed website link here*
+
+---
+
+## 📖 About the Project
+
+The Porsche 911 GT3 RS Showcase was created as a front-end development project to explore modern web design techniques and animation libraries. Inspired by Porsche's design philosophy, the website focuses on delivering a premium visual experience through fluid interactions, cinematic media, and clean user interface design.
+
+The project demonstrates the use of React for component-based development, GSAP for high-performance animations, and Vite for an efficient development workflow.
+
+---
+
+## 👨‍💻 Author
+
+**Aadit Narang**
+
+* GitHub: https://github.com/Whatyadoinn
+* LinkedIn: *Add your LinkedIn profile*
+
+---
+
+⭐ If you enjoyed viewing this project, consider giving the repository a star.
